@@ -11,11 +11,11 @@ public class HeroPower extends Hero {
 			this.deal(1);
 			break;
 		case "Rexxr":
-			getHealth();        //°ø°İ¹ŞÀ» HeroÀÇ Ã¼·ÂÀ» °¡Á®¿Â´Ù.
-			health -= 2;;
+			getHealth();        //ê³µê²©ë°›ì„ Heroì˜ ì²´ë ¥ì„ ê°€ì ¸ì˜¨ë‹¤.
+			health -= 2;
 			break;
 		case "Garosh":
-			this.health += 2;  //¿µ¿õÀÇ ÃÖ´ë Ã¼·ÂÀÌ Á¤ÇØÁ®ÀÖÁö ¾Ê±â ¶§¹®¿¡ ¹æ¾îµµ Ã¼·ÂÀÌ¶ó°í º»´Ù.
+			this.health += 2;  //ì˜ì›…ì˜ ìµœëŒ€ ì²´ë ¥ì´ ì •í•´ì ¸ìˆì§€ ì•Šê¸° ë•Œë¬¸ì— ë°©ì–´ë„ ì²´ë ¥ì´ë¼ê³  ë³¸ë‹¤.
 			
 		}
 
